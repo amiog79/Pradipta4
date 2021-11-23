@@ -32,14 +32,14 @@ span:hover{
 
 h1{
 
-    font-size: 40px;
+    font-size: 30px;
     background: red;
     color: white;
 }
 
  div{
       background: yellow;
-      font-size: 40px;
+      font-size: 30px;
       
     }   
 
