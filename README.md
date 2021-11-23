@@ -21,7 +21,7 @@ body{
 span{
 
   background: pink;
-  font-size: 50px;  
+  font-size: 30px;  
   
 }
 
