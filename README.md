@@ -57,13 +57,13 @@ h1{
 
 <!--YOUTUBE VIDEO 1-->
 
-<iframe width="1000" height="600" src="https://www.youtube.com/embed/UOhDLO5TMhQ">
+<iframe src="https://www.youtube.com/embed/UOhDLO5TMhQ">
 </iframe>
 
 <!--END NO-1 VIDEO-->
 
 <!--YOUTUBE VIDEO 2-->
-<iframe width="1000" height="600" src="https://www.youtube.com/embed/bQNX4EdFlz4">
+<iframe src="https://www.youtube.com/embed/bQNX4EdFlz4">
 </iframe>
 
 <!--END NO-2 VIDEO-->
