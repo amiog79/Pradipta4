@@ -39,7 +39,7 @@ h1{
 
  div{
       background: yellow;
-      font-size: 60px;
+      font-size: 40px;
       
     }   
 
