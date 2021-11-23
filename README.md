@@ -36,7 +36,7 @@ span{
 
     font-size: 30px;
      background: #17D4FE;
-     color: red;
+     color: black;
 }    
    
 
