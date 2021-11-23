@@ -105,7 +105,7 @@ h1{
 </head>
 <body>
   <div class="currently-active">
-    <span>Currently Active: </span><span id="active"></span>
+    <span>Currently Active: </span>0<span id="active"></span>
   </div>
 </body>
 <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.20.2.js"></script>
