@@ -78,7 +78,7 @@ h1{
 
 <!--ONLINE USERS-->
 
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Currently Active Demo</title>
