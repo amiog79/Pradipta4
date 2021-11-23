@@ -27,7 +27,7 @@ h1{
 }
 
  div{
-      
+      background: darkgrey;
       font-size: 25px;
       
     }   
@@ -45,7 +45,7 @@ span{
 </head>
 <body>
 
-    <div style="background: darkgrey;"><h1 style="font-size:25px;"> MADE BY PRADIPTA GHOSH </h1></div>
+    <div><h1 style="font-size:25px;"> MADE BY PRADIPTA GHOSH </h1></div>
 
 <a class='yt-subscribe-button' rel="noopener nofollow" href='https://www.youtube.com/c/BONGOMALA?sub_confirmation=1' target='_blank'>
     <span><svg viewBox="0 0 24 24" width="16" style='margin:-2px 4px 0 0'>
@@ -69,84 +69,7 @@ span{
 </iframe>
 
 <!--END NO-2 VIDEO-->
-    
-<!--GOOGLE MAP-->
-
-<html lang="en-US">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  <style type="text/css">
-  #map_canvas {
-    height: 300px;
-    width: 300px;
-  }
-  </style>
-</head>
-<body>
-<div id="map_canvas" width="300" height="300"></div>
-<input type="text" id="query" value=""/>
-<input type="submit" id="search" value="search"/>
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false" src="//maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript">
-var geo = {};
-window.onload = function() {
-  var latlng = new google.maps.LatLng(39.102431, -94.583698),
-      options  = {
-        zoom               : 4,
-        mapTypeId          : google.maps.MapTypeId.TERRAIN,
-        center             : latlng,
-        streetViewControl  : true,
-        scaleControl       : true,
-        scrollwheel        : true,
-        mapTypeControl     : true,
-        overviewMapControl : true,
-        panControlOptions  : {
-          position         : google.maps.ControlPosition.TOP_LEFT
-        },
-        zoomControlOptions : {
-          position         : google.maps.ControlPosition.TOP_LEFT
-        }
-      };
-      map    = new google.maps.Map(document.getElementById('map_canvas'), options),
-      marker = new google.maps.Marker({
-                     position  : latlng,
-                     map       : map,
-                     draggable : false
-                   }),
-      geocoder = new google.maps.Geocoder(),
-      search = document.getElementById('search'), 
-      query = document.getElementById('query');
-
-  function codeAddress() {
-    var address = query.value;
-    geocoder.geocode( { 'address': address}, function(results, status) {
-      console.log(results);
-      if (status == google.maps.GeocoderStatus.OK) {
-        map.setCenter(results[0].geometry.location);
-        var marker = new google.maps.Marker({
-            map: map,
-            position: results[0].geometry.location
-        });
-      } else {
-        alert("Geocode was not successful for the following reason: " + status);
-      }
-    });
-  };
-
-  search.onclick = function() {
-   codeAddress(); 
-  };
-};
-</script>
-</body>
-</html>
-
-
-
-<!--END GOOGLE MAP-->
-    
-    
+        
 
 <center style="font-size:16px;background:red"><u><a style="color:white;">Privacy Policy</a></u> <u><a style="color:white">Terms & Conditions</a></u></center>
 <center style= "color:black;font-size:16px;background:#17D4FE">Copyright © By Pradipta Ghosh.com 2019</center>
