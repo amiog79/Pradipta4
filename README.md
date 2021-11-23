@@ -18,18 +18,6 @@ body{
 
 }
 
-span{
-
-  background: black;
-  font-size: 30px;  
-  color: yellow;
-}
-
-span:hover{
-
-    background: black;
-    color: skyblue;
-}
 
 h1{
 
