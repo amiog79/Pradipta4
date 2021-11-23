@@ -27,7 +27,7 @@ h1{
 }
 
  div{
-      background: darkgrey;
+      
       font-size: 25px;
       
     }   
@@ -45,7 +45,7 @@ span{
 </head>
 <body>
 
-    <div><h1 style="font-size:25px;"> MADE BY PRADIPTA GHOSH </h1></div>
+    <div style="background: darkgrey;"><h1 style="font-size:25px;"> MADE BY PRADIPTA GHOSH </h1></div>
 
 <a class='yt-subscribe-button' rel="noopener nofollow" href='https://www.youtube.com/c/BONGOMALA?sub_confirmation=1' target='_blank'>
     <span><svg viewBox="0 0 24 24" width="16" style='margin:-2px 4px 0 0'>
