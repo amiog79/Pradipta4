@@ -20,15 +20,15 @@ body{
 
 span{
 
-  background: pink;
+  background: black;
   font-size: 30px;  
-  
+  color: yellow;
 }
 
 span:hover{
 
     background: black;
-    color: yellow;
+    color: skyblue;
 }
 
 h1{
