@@ -37,13 +37,18 @@ h1{
     color: white;
 }
 
+ div{
+      background: yellow;
+      font-size: 60px;
+      
+    }   
 
 </style>
 
 </head>
 <body>
 
-<h1>MADE BY PRADIPTA GHOSH</h1>
+    <div><h1>MADE BY PRADIPTA GHOSH</h1></div>
 
 <a class='yt-subscribe-button' rel="noopener nofollow" href='https://www.youtube.com/c/BONGOMALA?sub_confirmation=1' target='_blank'>
     <span><svg viewBox="0 0 24 24" width="16" style='margin:-2px 4px 0 0'>
