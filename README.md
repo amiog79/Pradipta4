@@ -31,6 +31,12 @@ h1{
       font-size: 25px;
       
     }   
+    
+span{
+
+    font-size: 30px;
+}    
+   
 
 </style>
 
