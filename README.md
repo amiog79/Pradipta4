@@ -20,7 +20,8 @@ body{
 
 span{
 
-  background: pink;  
+  background: pink;
+  font-size: 80px;  
   
 }
 
